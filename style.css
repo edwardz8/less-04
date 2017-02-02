@@ -1,0 +1,77 @@
+
+body {
+  margin: 0;
+
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section {
+  padding: 1rem;
+}
+
+.section__pic {
+  min-height: 100vh;
+  background: url('http://placecera.com/g/1920/1080');
+  color: white;
+}
+
+
+
+
+.next-to {
+  overflow: auto;
+  margin: 0 1rem;
+}
+
+.next-to__item {
+  float: left;
+  margin: 0.5rem;
+}
+
+.next-to__item ++ .next-to__item {
+  margin-left: 1rem;
+}
+
+.circle-left {
+  position: fixed;
+  left: 1rem;
+  margin: 0.5rem;
+  padding: 1rem;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.v-stack > * {
+  display: block;
+}
+
+/*Specific*/
+
+.logo {
+  margin: 0;
+  line-height: 2rem;
+}
+
+.search {
+  line-height: 1.5rem;
+}
+
+.dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #fff;
+  border: #a3a3a3 solid 0.1rem;
+  border-radius: 50%;
+}
